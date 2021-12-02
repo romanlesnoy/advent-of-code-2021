@@ -1,4 +1,3 @@
-const { arrayBuffer } = require('stream/consumers');
 const { readFile } = require('../data/day-01/read-file');
 
 const data = readFile().trim().split('\n').map(value => parseInt(value, 10));
